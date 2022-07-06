@@ -1,0 +1,15 @@
+header{
+    background-color: #f878e37c;
+    padding: 16px 0;
+}
+
+header h1{
+    font-family: 'Berkshire Swash';
+    color: #3f1016;
+    font-size: 40px;
+    font-weight: 400;
+    font-style: bold;
+    display: inline-block;
+    position: relative;
+    margin-left: 150px;
+}
