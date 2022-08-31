@@ -1,10 +1,10 @@
 import React from "react";
-import 'C:/Users/PC/Desktop/Christian/Diseño Web/Dulcemente Chily React/frontend/src/styles/components/pages/ContactoPage.css';
+import '../styles/components/pages/ContactoPage.css';
 
 const ContactoPage = (props) => {
     return (
         <main className="holder contacto">
-            <div>
+            <div class='contactorapido'>
                 <h2>Contacto Rápido</h2>
                 <form action="" method="" className="formulario">
                     <p>
@@ -12,7 +12,7 @@ const ContactoPage = (props) => {
                         <input type="text" name="" />
                     </p>
                     <p>
-                        <label for="email">Email:</label>
+                        <label for="email">Tu eMail: </label>
                         <input type="text" name="" />
                     </p>
                     <p>
@@ -30,12 +30,11 @@ const ContactoPage = (props) => {
             </div>
             <div class="datos">
                 <h2>Otras vias de comunicación</h2>
-                <p>Tambien puedes comunicarte con nostoros usando los siguientes medios</p>
                 <ul>
-                    <li>Telefono</li>
-                    <li>Mail</li>
-                    <li>Facebook</li>
-                    <li>Whatsapp</li>
+                    <li><i class="fa-solid fa-phone"></i>  0392 154323242</li>
+                    <li><i class="fa-solid fa-envelope"></i>  dulcementechily@gmail.com</li>
+                    <li><i class="fa-brands fa-facebook"></i><a href="facebook.com/dulcementechily">  Facebook</a></li>
+                    <li><i class="fa-brands fa-instagram"></i><a href="instagram.com/dulcementechily">  Instagram</a></li>
                 </ul>
             </div>
         </main>

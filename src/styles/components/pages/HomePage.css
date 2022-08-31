@@ -1,22 +1,50 @@
 .bienvenidos{
-    width: 75%;
-    padding-right: 30px;
+    /* font-family: 'Berkshire Swash'; */
+    color: #4b131ae5;
     box-sizing: border-box;
-    margin: 30px;
+    text-align: center;
 }
 
-.testimonios{
-    width: 25%;
+.bienvenidos h1{
+    margin: 60px 0 50px;
+    font-family: 'Dancing Script';
+    font-size: 70px;
 }
 
+.imagen-portada {
+    display: flex;
+    justify-content: center;
+}
+
+.imagen-portada img {
+    margin: 5px;
+    width: 550px;
+    border-radius: 4px;
+}
+
+.bienvenidos h2{
+    margin-top: 50px;
+    margin-bottom: 40px;
+    font-family: 'Dancing Script';
+    font-size: 50px;
+}
+
+.bienvenidos h3 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #4b131ab6;
+    font-size: 25px;
+}
+
+/* 
 .columnas{
     display: flex;
     justify-content: space-between;
     gap: 20px;
-}
+} 
 
-.bienvenidos p{
-    font-size: 20px;
+.testimonios{
+    width: 25%;
 }
 
 .testimonio{
@@ -38,4 +66,4 @@
     background-color: lightcoral;
     display: block;
     margin: 12px 0;
-}
+} */

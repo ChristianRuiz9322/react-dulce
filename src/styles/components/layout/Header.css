@@ -1,15 +1,27 @@
+.holder-head{
+    margin: 10px;
+    display: inline-flex;
+}
+
 header{
-    background-color: #f878e37c;
-    padding: 16px 0;
+    /* background-color: #f878e31c; */
+    padding: 5px 5px;
 }
 
 header h1{
     font-family: 'Berkshire Swash';
-    color: #3f1016;
-    font-size: 40px;
+    /* color: #3f1016; */
+    /* color: #8b1424e5; */
+    font-size: 35px;
     font-weight: 400;
-    font-style: bold;
+    /* font-style: bold; */
+    padding: 15px 50px 0px;
     display: inline-block;
-    position: relative;
-    margin-left: 150px;
+}
+
+.logo{
+    width: 120px;
+    position: absolute;
+    border-radius: 50%;
+    margin: 10px;
 }

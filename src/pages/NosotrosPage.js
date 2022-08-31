@@ -1,42 +1,68 @@
 import React from "react";
-import 'C:/Users/PC/Desktop/Christian/Diseño Web/Dulcemente Chily React/frontend/src/styles/components/pages/NosotrosPage.css';
+import '../styles/components/pages/NosotrosPage.css';
 
 const NosotrosPage = (props) => {
     return (
        <main className="holder">
             <div className="historia">
-                <h2>Historia</h2>
-                <p>Erase una vez, un panadero en 1976 que comenzó su panadería y le quería poner un toque especial bla bla bla. 
-                años mas tarde su produccion aumentó de tal manera que tuvo que agrandar su espacio y conseguir un lugar mucho 
-                mas grande para continuar su negocio.
-                </p>
+                <h2>Mi historia</h2>
+                <p> La repostería llegó a mi vida desde muy joven, mis inicios fueron en casa de mis padres con pequeños 
+                encargos para mis compañeros de la universidad. Luego, de un largo tiempo dedicada a mi vida personal 
+                y laboral, nace Ricardo Andrés, mi primer pedacito de cielo y es cuando decidí retomar mi amor por los 
+                postres. esde ahí se convirtió en mi gran pasión. Ser repostera ha llenado mi vida de dulce y mucho 
+                amor, me ha permitido compartir con mis clientes y hacerlos felices con mis postres. Esto sin dejar 
+                a un lado mis carreras de diseñador gráfico y publicista que se han vuelto el complemento perfecto para 
+                la esta pasión. 
+                Endulzar sus momentos tiene su cuota de sacrificio, se necesita mucha dedicación y amor, pero a veces 
+                mi familia también lo requiere, hago mi mayor esfuerzo para tener ese equilibrio perfecto, que me 
+                permite cumplir con mi papel de madre, esposa, hija y repostera, nada fácil. </p>
             </div>
             <div className="staff">
-                <h2>Staff</h2>
+                <h2>Mi Staff</h2>
                 <div className="personas">
                     <div className="persona">
-                        <img src="" alt="Juan gomez" />
-                        <h5>Juan Gomez</h5>
+                        <img src="./img/cocinera1.jpg" alt="Juana gomez" />
+                        <h5>Juana Gomez</h5>
                         <h6>Gerente general</h6>
-                        <p>aqui va la historia de Juan gomez</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
+                            ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation 
+                            ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in 
+                            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur 
+                            sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id 
+                            est laborum</p>
                     </div>
                     <div className="persona">
-                        <img src="" alt="Juan Asturias" />
+                        <img src="./img/cocinero1.jpg" alt="Juan Asturias" />
                         <h5>Juan Asturias</h5>
                         <h6>Cocinero principal</h6>
-                        <p>aqui va la historia de Juan gomez</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
+                            ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation 
+                            ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in 
+                            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur 
+                            sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id 
+                            est laborum</p>
                     </div>
                     <div className="persona">
-                        <img src="" alt="Dolores Umbridge" />
+                        <img src="./img/cocinera2.jpg" alt="Dolores Umbridge" />
                         <h5>Dolores Umbridge</h5>
                         <h6>Pastelera</h6>
-                        <p>aqui va la historia de Juan gomez</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
+                            ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation 
+                            ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in 
+                            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur 
+                            sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id 
+                            est laborum</p>
                     </div>
                     <div className="persona">
-                        <img src="" alt="Kiadi Mundi" />
+                        <img src="./img/cocinero2.jpg" alt="Kiadi Mundi" />
                         <h5>Kiadi Mundi</h5>
                         <h6>Administrador</h6>
-                        <p>aqui va la historia de Juan gomez</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
+                            ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation 
+                            ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in 
+                            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur 
+                            sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id 
+                            est laborum</p>
                     </div>
                 </div>
             </div>

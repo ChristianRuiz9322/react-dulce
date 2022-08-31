@@ -1,10 +1,14 @@
 .contacto{
     display: flex;
     gap: 24px;
+    color: #4b131ae5;
+    font-weight: 500;
 }
 
 .contacto div{
     width: 100%;
+    margin-top: 30px;
+    margin-left: 20px;
 }
 
 .datos p{
@@ -12,7 +16,19 @@
 }
 
 .datos ul li {
-    font-size: 13px;
+    margin:1em;
+    color: #270d11;
+    font-size: 16px;
+    font-weight: 400;
+    display: block;
+}
+
+.datos ul li a {
+    text-decoration: none;
+}
+
+.datos ul li i {
+    font-size: 20px;
 }
 
 .formulario p{
@@ -28,16 +44,17 @@ formulario p label{
 
 .formulario p input,
 .formulario p textarea{
-    width: 100%;
+    width: 80%;
     background: #ddd;
     border-radius: 5px;
     border: 1px solid #999;
     font-size: 14px;
     padding: 6px 10px;
+    margin: 6px;
 }
 
 .formulario p:nth-child(4) {
-    align-items: start;
+    align-items: flex-start;
 }
 
 .formulario textarea{

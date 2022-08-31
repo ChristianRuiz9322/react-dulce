@@ -1,11 +1,11 @@
 nav{
-    background-color: #f552da7c;
-    margin-bottom: 20px;
+    /* background-color: #f552da38; */
+    margin: 5em 20em 20px;
 }
 
 nav ul{
     list-style: none;
-    margin: 0;
+    margin: 10px;
     padding: 0;
     display: flex;
 }
@@ -15,19 +15,25 @@ nav ul li{
 }
 
 nav ul li a{
-    color: #3f1016;
+    color: #270d11;
     text-decoration: none;
-    font-weight: 500;
+    font-size: 23px;
+    font-weight: 400;
     padding: 3px 6px;
     display: block;
     text-align: center;
+    transition: all .4s linear;    
+    border-radius: 15px;
 }
 
 nav ul li a:hover{
-    background-color: rgba(0, 0, 0, 0.3);
+    /* background-color: #f848db59; */
+    border-radius: 15px;
+    color: #ca6c79e7;
 }
 
 nav ul li a.activo{
-    background-color: #f848db7c;
+    /* background-color: #f848db98; */
+    color: #ca6c79e7;
 }
 
